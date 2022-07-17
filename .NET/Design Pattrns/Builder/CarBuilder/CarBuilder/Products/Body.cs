@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CarBuilder
+{
+    //Кузов
+    //
+    //SEDAN.A sedan has four doors and a traditional trunk. ...
+    // COUPE.Mercedes-Benz. ...
+    //SPORTS CAR.These are the sportiest, hottest, coolest-looking coupes and convertibles—low to the ground, sleek, and often expensive. ...
+    //STATION WAGON. ...
+    //HATCHBACK. ...
+    //CONVERTIBLE. ...
+    //SPORT-UTILITY VEHICLE (SUV) ...
+    //MINIVAN.
+    class Body
+    {
+        public string BodyStructure { get; set; }
+    }
+}
